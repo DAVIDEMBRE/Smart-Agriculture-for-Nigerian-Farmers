@@ -1,0 +1,49 @@
+# Dependencies
+/node_modules/
+
+# Next.js build output
+/.next/
+/out/
+/build/
+
+# Test and coverage output
+/test-results/
+/playwright-report/
+/blob-report/
+/coverage/
+
+# Local environment files and secrets
+.env*
+!.env.example
+
+# Python environments and generated files
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+*.joblib
+
+# Local training data and large Colab export bundle
+/Data/
+/artifacts/smart_farming_bundle/
+
+# Keep production models, manifests (including their SHA-256 checksums), and goldens
+!/artifacts/
+!/artifacts/*.json
+!/artifacts/*.cbm
+
+# Local-only / duplicate files
+/Smart_farming_for_rural_Nigeria_ALL17 (6).ipynb
+/Notebooks/Smart_farming_for_rural_Nigeria_ALL17_(7)_done.ipynb
+/Mbre,David_Edet_24-PG-EG-EE-002_MEng_Dissertation_Complete_Submitted.docx
+/LICENSE copy
+/package-lock.json
+
+# Tooling and operating-system files
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+._*

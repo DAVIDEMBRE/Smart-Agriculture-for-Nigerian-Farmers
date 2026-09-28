@@ -1,0 +1,14 @@
+{
+  "name": "Smart Farming for Rural Nigeria",
+  "short_name": "Smart Farming NG",
+  "description": "Research-backed crop recommendation and live Uyo weather.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f7f1",
+  "theme_color": "#146b3a",
+  "lang": "en-NG",
+  "categories": ["education", "utilities"],
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
